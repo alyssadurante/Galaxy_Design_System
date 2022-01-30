@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
+    title: 'Galaxy Design System',
+    description: 'Design system for AnswerRockets Galaxy',
     keywords: 'gatsby,theme,carbon',
   },
   pathPrefix: `/gtc`,
@@ -9,12 +9,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Carbon Design Gatsby Theme',
+        name: 'Galaxy Design System',
         icon: 'src/images/favicon.svg',
-        short_name: 'Gatsby Theme Carbon',
+        short_name: 'GDS',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#161616',
+        theme_color: '#1F2937',
         display: 'browser',
       },
     },
