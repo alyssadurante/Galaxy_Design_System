@@ -1,5 +1,52 @@
 // This is where your application styles could go.
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 .bx--header__global, .GlobalSearch-module--searchButton--h3xR0, .Header-module--header--GJDvk .Header-module--header-button--cTW-C.Header-module--switcher-button--FrOpW, .Header-module--headerName--01F2z {
     background-color: #1F2937;
 }
 
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+.PageHeader-module--page-header--NqfPe {
+    background-color: #E5E7EB !important;
+    color: #111827 !important;
+    border-bottom: unset !important;
+}
+
+.container--g10 {
+    background: #F9FAFB;
+    color: #111827;
+}
+.NextPrevious-module--wrapper--jrIYs {
+    background: #374151;
+    color: #ffffff;
+}
+.NextPrevious-module--link--gGvZe:hover {
+    background-color: #1F2937 !important;
+}
+.Footer-module--footer--spNBO {
+    background-color: #111827;
+}
+a.bx--side-nav__link[aria-current="page"], a.bx--side-nav__link--current {
+    background-color: #F3F4F6;
+    font-weight: 500 !important;
+    color: #111827;
+    font-family: 'Inter', sans-serif !important;
+}
+a.bx--side-nav__link:hover {
+    background-color: #F9FAFB !important;
+}
+span.bx--side-nav__link-text {
+    color: #4B5563 !important;
+    font-weight: 500;
+    letter-spacing: normal !important;
+}
+button.bx--side-nav__submenu {
+    color: #4B5563 !important;
+    font-weight: 500;
+    letter-spacing: normal !important;
+}
+.bx--side-nav__menu a.bx--side-nav__link--current, .bx--side-nav__menu a.bx--side-nav__link[aria-current=page], a.bx--side-nav__link--current {
+    background-color: #F3F4F6;
+}

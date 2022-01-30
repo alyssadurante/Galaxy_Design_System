@@ -10,9 +10,6 @@
 - title: Contributions
   pages:
     - path: /contributions
-- title: Components
-  pages:
-    - path: /components
 - title: Guides
   pages:
     - title: Authoring MDX
@@ -34,6 +31,9 @@
     - title: v2.0 Migration
       path: /guides/v2-migration
   hasDivider: true
+- title: Components
+  pages:
+    - path: /components
 - title: Molecules
   pages:
     - title: Accordion
