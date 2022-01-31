@@ -1,60 +1,188 @@
 ---
-title: Usage
-tabs: ['Usage', 'Code']
+title: Accordion
+tabs: ['Usage', 'Styles', 'Code']
 description: Usage instructions for the Accordion component
 ---
 
 <PageDescription>
 
-The `<Accordion>` and `<AccordionItem>` components are used together to display
-a list of content sections that can be toggled open by clicking the respective
-title of each section.
+An accordion is a vertically stacked list of headers that reveal or hide
+associated sections of content.
 
 </PageDescription>
 
-## Example
+<AnchorLinks>
 
-<Accordion>
-<AccordionItem title="Title 1">
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Live demo</AnchorLink>
+<AnchorLink>Formatting</AnchorLink>
+<AnchorLink>Content</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Related</AnchorLink>
+<AnchorLink>References</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
 
-In ac nisi ut mauris venenatis blandit a et ante. Mauris eu congue velit, eget
-dictum diam. Etiam sed turpis quis ligula interdum lobortis eu et libero.
-Praesent nec eros sit amet elit tempor egestas cursus non nulla. Vestibulum
-dictum luctus lorem in rhoncus.
+</AnchorLinks>
 
-Nullam vestibulum blandit libero, ac tempus felis tristique id. Aliquam rhoncus
-vestibulum dui eu dictum. Morbi congue purus eu libero sodales, nec sollicitudin
-ligula tempor.
+## Overview
 
-- list item
-- list item
-- list item
+The accordion component delivers large amounts of content in a small space
+through progressive disclosure. The header title give the user a high level
+overview of the content allowing the user to decide which sections to read.
 
-</AccordionItem>
-  <AccordionItem title="Title 2">Content Section</AccordionItem>
-  <AccordionItem title="Title 3">Content Section</AccordionItem>
-</Accordion>
+Accordions can make information processing and discovering more effective.
+However, it does hide content from users and it's important to account for a
+user not noticing or reading all of the included content. If a user is likely to
+read all of the content then don't use an accordion as it adds the burden of an
+extra click; instead use a full scrolling page with normal headers.
 
-## Code
+### When to use:
 
-### Props
+- To organize related information.
+- To shorten pages and reduce scrolling when content is not crucial to read in
+  full.
+- When space is at a premium and long content cannot be displayed all at once,
+  like on a mobile interface or in a side panel.
 
-<Title>Accordion</Title>
+## Live demo
 
-| property  | propType | required | default | description                                                       |
-| --------- | -------- | -------- | ------- | ----------------------------------------------------------------- |
-| children  | node     |          |         | Pass in the children that will be rendered within the Accordion   |
-| className | string   |          |         | Specify an optional className to be applied to the container node |
+<ComponentDemo
+  components={[
+    {
+      id: 'accordion',
+      label: 'Accordion',
+    },
+  ]}>
+  <ComponentVariant
+    id="accordion"
+    knobs={{
+      Accordion: ['align', 'disabled'],
+      AccordionItem: ['open', 'disabled'],
+    }}
+    links={{
+      React:
+        'https://react.carbondesignsystem.com/?path=/story/components-accordion--accordion',
+      Angular:
+        'https://angular.carbondesignsystem.com/?path=/story/components-accordion--basic',
+      Vue:
+        'http://vue.carbondesignsystem.com/?path=/story/components-cvaccordion--default',
+      Vanilla: 'https://the-carbon-components.netlify.com/?nav=accordion',
+      "Web Components": 'https://web-components.carbondesignsystem.com/?path=/story/components-accordion--default',
+    }}>
+    {`
+  <Accordion>
+    <AccordionItem title="Title 1"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+    <AccordionItem title="Title 2"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+    <AccordionItem title="Title 3"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+  </Accordion>
+  `}
+  </ComponentVariant>
+</ComponentDemo>
 
-<Title>AccordionItem</Title>
+## Formatting
 
-| property        | propType | required | default                        | description                                                                         |
-| --------------- | -------- | -------- | ------------------------------ | ----------------------------------------------------------------------------------- |
-| title           | node     |          | 'title'                        | The accordion title                                                                 |
-| renderExpando   | func     |          | props => <button {...props} /> | The callback function to render the expando button. Can be a React component class. |
-| iconDescription | string   |          | 'Expand/Collapse'              | The description of the expando icon                                                 |
-| open            | bool     |          | false                          | `true` to open the expando                                                          |
-| onClick         | func     |          | () => {}                       | The handler of the massaged `click` event.                                          |
-| onHeadingClick  | func     |          | () => {}                       | The handler of the massaged `click` event on the heading.                           |
-| children        | node     |          |                                | Provide the contents of your AccordionItem                                          |
-| className       | string   |          |                                | Specify an optional className to be applied to the container node                   |
+### Anatomy
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643157199/Accordion_Anatomy_-_Open_nzy6tc.svg"></img>
+
+</Column>
+</Row>
+
+1. **Header**: contains the section title and is control for revealing the
+   panel.
+2. **Subtitle**: a description of what that specific accordion section does (optional)
+3. **Icon**: indicates if the panel is open or closed.
+3. **Panel**: the section of content associated with an accordion header.
+
+### Placement
+
+Accordions can be placed with main page content or placed inside of a container
+such as a side panel or tile.
+
+<Row>
+<Column colLg={12} colMd={12} colSm={4}>
+<ArtDirection>
+
+![accordion placement](images/accordion-placement-2m.png)
+![accordion placement](images/accordion-placement-2.png)
+![accordion placement](images/accordion-placement-2.png)
+
+</ArtDirection>
+</Column>
+</Row>
+
+## Content
+
+### Main elements
+
+#### Title
+
+- The title should be as brief as possible while still being clear and
+  descriptive.
+- Each title should be wrapped in a
+  [role heading](https://www.w3.org/TR/wai-aria-practices-1.1/#wai-aria-roles-states-and-properties)
+  (h1-h6) that is appropriate for the information architecture of the page.
+
+#### Body copy
+
+- Content inside of a section may be split into paragraphs and include
+  sub-headers if needed.
+
+### Scrolling content
+
+When the accordion content is longer than the viewport the whole accordion
+should vertically scroll. Content should not scroll inside of an individual
+panel. Content should never scroll horizontally in an accordion.
+
+## Behaviors
+
+### States
+
+The accordion component has two main states: **collapsed** and **expanded**. The
+chevron icon at the end of the accordion indicates which state the accordion is
+in. The chevron points down to indicate collapsed and up to indicate expanded.
+
+Accordions begin by default in the collapsed state with all content panels
+closed. Starting in a collapsed state gives the user a high level overview of
+the available information.
+
+#### Collapsed State
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643158257/Accordion_Collapsed_j7wgue.svg"></img>
+
+</Column>
+</Row>
+
+
+#### Expanded State
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643158257/Accordion_Open_otxn0n.svg"></img>
+
+</Column>
+</Row>
+
+A user can then independently expand each section of the accordion allowing for
+multiple sections to be open at once.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643603152/accordion-expanded_y5s2to.svg"></img>
+
+</Column>
+</Row>
+
+## Feedback
+
+Contact the team on Slack on the ```#galaxy-design-system``` channel. 
+
+If you need a new component that is not currently in Galaxy, please fill out this <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">form</a> and email it over to the Design Team, Chris or Alyssa. We will take a look at your request and get back to you.

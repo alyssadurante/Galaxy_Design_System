@@ -1,0 +1,210 @@
+---
+title: Alerts
+tabs: ['Usage', 'Styles', 'Code']
+description: Usage instructions for the Alert component
+---
+
+<PageDescription>
+
+Alerts communicate important information in a section of a screen. Alerts are persistent, but can disappear when the user takes action or resolves the situation.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Live demo</AnchorLink>
+<AnchorLink>Formatting</AnchorLink>
+<AnchorLink>Content</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Related</AnchorLink>
+<AnchorLink>References</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+
+By default, all alerts come with an icon and an area for content. A title and actions can also be added.
+
+### When to use:
+
+- A user is taking a particular action that may have potentially destructive consequences
+- A user needs to take action to keep moving through an experience
+- There are connectivity or authentication issues
+
+## Live demo
+
+<ComponentDemo
+  components={[
+    {
+      id: 'accordion',
+      label: 'Accordion',
+    },
+  ]}>
+  <ComponentVariant
+    id="accordion"
+    knobs={{
+      Accordion: ['align', 'disabled'],
+      AccordionItem: ['open', 'disabled'],
+    }}
+    links={{
+      React:
+        'https://react.carbondesignsystem.com/?path=/story/components-accordion--accordion',
+      Angular:
+        'https://angular.carbondesignsystem.com/?path=/story/components-accordion--basic',
+      Vue:
+        'http://vue.carbondesignsystem.com/?path=/story/components-cvaccordion--default',
+      Vanilla: 'https://the-carbon-components.netlify.com/?nav=accordion',
+      "Web Components": 'https://web-components.carbondesignsystem.com/?path=/story/components-accordion--default',
+    }}>
+    {`
+  <Accordion>
+    <AccordionItem title="Title 1"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+    <AccordionItem title="Title 2"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+    <AccordionItem title="Title 3"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+  </Accordion>
+  `}
+  </ComponentVariant>
+</ComponentDemo>
+
+## Formatting
+
+### Anatomy
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643605274/alert-anatomy_snivsu.svg"></img>
+
+</Column>
+</Row>
+
+1. **Icon and background color**: The icon and background color pairing indicates the message type and comes in the default styles for the message type.
+2. **Title**: Titles should clearly and concisely indicate the purpose of the message.
+3. **Description**: This should describe the issue and any action the user needs to take, if any. The message will grow along with the length of the description but should be as succinct as possible.
+3. **Actions (optional)**: One or more links that enable the user to act on the section message content.
+
+### Placement
+
+Alerts placement description
+
+## Content
+
+### Main elements
+
+#### Title
+
+- Titles should clearly describe the issue or reason for the message.
+
+#### Body copy
+
+- Description text should be clear, concise, empathetic, and informative.
+- Use active verbs to guide the user on any actions they need to take.
+
+### Scrolling content
+
+Alerts should be sticky????
+
+## Behaviors
+
+### States
+
+By default, all section message come with an icon and an area for content. A ```title``` and ```actions``` can also be added.
+
+
+#### Information
+The information alert is the default appearance used to signify a change in state or important information.
+
+<Row>
+<Column colLg={8}>
+
+<iframe src="https://codesandbox.io/embed/thirsty-curran-lzwvs?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Falerts%2FAlert.js&theme=light&view=preview"
+     style="width:100%; height:220px; border:0; border-radius: 4px; overflow:hidden;"
+     title="thirsty-curran-lzwvs"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+</Column>
+</Row>
+
+
+#### Success
+
+Use a success alert to let the user know that an action or event has happened successfully.
+
+<Row>
+<Column colLg={8}>
+
+<iframe src="https://codesandbox.io/embed/alert-success-qetzu?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Falerts%2FAlertSuccess.js&theme=light&view=preview"
+     style="width:100%; height:220px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Alert Success"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+</Column>
+</Row>
+
+#### Warning
+
+Use a warning section message to help users:
+
+- avoid errors
+- manage authentication issues
+- take the actions needed to avoid potentially dangerous actions
+- feel certain they're making the decision, for example, in confirmation modals
+
+<Row>
+<Column colLg={8}>
+
+<iframe src="https://codesandbox.io/embed/alert-warning-i7bgx?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Falerts%2FAlertWarning.js&theme=light&view=preview"
+     style="width:100%; height:220px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Alert Warning"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+</Column>
+</Row>
+
+#### Error
+
+Use an error section message to let the user know when:
+
+- something destructive or critical has happened
+- access has been denied
+- there are connectivity issues
+
+<Row>
+<Column colLg={8}>
+
+<iframe src="https://codesandbox.io/embed/alert-error-qmzbz?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Falerts%2FAlertError.js&theme=light&view=preview"
+     style="width:100%; height:220px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Alert Error"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+</Column>
+</Row>
+
+#### Actions
+
+Use the actions prop to let users act on the content in the section message.
+
+- something destructive or critical has happened
+- access has been denied
+- there are connectivity issues
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643606049/Alert-actions_kz58qv.svg"></img>
+
+</Column>
+</Row>
+
+
+## Feedback
+
+Contact the team on Slack on the ```#galaxy-design-system``` channel. 
+
+If you need a new component that is not currently in Galaxy, please fill out this <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">form</a> and email it over to the Design Team, Chris or Alyssa. We will take a look at your request and get back to you.

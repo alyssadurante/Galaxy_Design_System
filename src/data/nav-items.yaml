@@ -1,36 +1,3 @@
-- title: Getting started
-  pages:
-    - path: /getting-started
-- title: Demo
-  pages:
-    - path: /demo
-- title: Gallery
-  pages:
-    - path: /gallery
-- title: Contributions
-  pages:
-    - path: /contributions
-- title: Guides
-  pages:
-    - title: Authoring MDX
-      path: /guides/MDX
-    - title: Configuration
-      path: /guides/configuration
-    - title: Gatsby Sketch kit
-      path: /guides/sketch-kit
-    - title: Hosting
-      path: /guides/hosting
-    - title: Navigation
-      path: /guides/navigation/sidebar
-    - title: npm scripts
-      path: /guides/npm-scripts
-    - title: Shadowing
-      path: /guides/shadowing
-    - title: Styling
-      path: /guides/styling
-    - title: v2.0 Migration
-      path: /guides/v2-migration
-  hasDivider: true
 - title: Components
   pages:
     - path: /components
@@ -38,6 +5,8 @@
   pages:
     - title: Accordion
       path: /molecules/accordion/usage
+    - title: Alerts
+      path: /molecules/alerts/usage
     - title: Caption
       path: /molecules/Caption   
     - title: Title
