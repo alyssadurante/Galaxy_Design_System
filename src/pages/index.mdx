@@ -1,31 +1,42 @@
 import HomepageTemplate from '../components/Homepage.js';
 export default HomepageTemplate;
 
-## MDX content starts here
 
-<PageDescription>
-
-The homepage content here lives in the `src/pages/index.mdx` directory at the
-root of your project. Just like the other mdx pages, you can use all of our
-theme components here without importing them. Review the
-[MDX example source](https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/pages/index.mdx).
-
-</PageDescription>
-
-<FeatureCard
-    color="dark"
-    href="/getting-started"
-    title="Getting started"
-    actionIcon="arrowRight"
-    className="homepage-feature"
-    >
-
-<ArtDirection>
-
-![blue vertical stripes](../images/blue-stripes-mobile.jpg)
-![blue vertical stripes](../images/blue-stripes-tablet.jpg)
-![blue vertical stripes](../images/blue-stripes.jpg)
-
-</ArtDirection>
-
-</FeatureCard>
+<Row class="flex">
+<Column colLg={3} colMd={3} class="p-right">
+    <div class="title-card-sm border-right">
+        <h3 class="title-card-title">Foundations</h3>
+        <p class="title-card-description">Foundations are the visual elements needed to create engaging layouts and end-to-end user experiences.</p>
+    </div>
+</Column>
+<Column colLg={3} colMd={3} class="p-right">
+    <a href="" class="homepage-card-sm">
+        <div>
+            <h3 class="title-card-title">
+                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643764733/colors_h6kzuq.svg"></img>Colors
+            </h3>
+            <p class="title-card-description">Color distinguishes our brand and helps us create consistent experiences across products.</p>
+        </div>
+    </a>
+</Column>
+<Column colLg={3} colMd={3} class="p-right">
+    <a href="" class="homepage-card-sm">
+        <div>
+            <h3 class="title-card-title">
+                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643766284/Icon_iep6ta.svg"></img>Iconography
+            </h3>
+            <p class="title-card-description">Icons are visual representations of commands, devices, directories, or common actions.</p>
+        </div>
+    </a>
+</Column>
+<Column colLg={3} colMd={3} class="p-right">
+    <a href="" class="homepage-card-sm">
+        <div>
+            <h3 class="title-card-title">
+                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643766284/text_t3jylz.svg"></img>Typography
+            </h3>
+            <p class="title-card-description">Typography is our system of fonts. Each font conveys the appropriate sentiment to assist our users through each stage of their journey.</p>
+        </div>
+    </a>
+</Column>
+</Row>

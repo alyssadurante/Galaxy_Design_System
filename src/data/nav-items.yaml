@@ -7,8 +7,16 @@
       path: /molecules/accordion/usage
     - title: Alerts
       path: /molecules/alerts/usage
-    - title: Caption
-      path: /molecules/Caption   
-    - title: Title
-      path: /molecules/Title
+    - title: Avatars
+      path: /molecules/avatars/usage
+    - title: Badges
+      path: /molecules/badges/usage
+    - title: Breadcrumbs
+      path: /molecules/breadcrumbs/usage
+    - title: Buttons
+      path: /molecules/buttons/usage
+  hasDivider: true
+- title: Foundations
+  pages:
+    - path: /foundations
 

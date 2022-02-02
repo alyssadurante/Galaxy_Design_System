@@ -1,0 +1,231 @@
+---
+title: Buttons
+tabs: ['Usage', 'Style', 'Code']
+description: Usage instructions for the Button component
+---
+
+<PageDescription>
+
+Buttons are triggers for events or actions. They’re commonly used as part of larger components or patterns such as forms or modal dialogs.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Live demo</AnchorLink>
+<AnchorLink>Formatting</AnchorLink>
+<AnchorLink>Content</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+
+Buttons are clickable elements that are used to trigger actions. They communicate calls to action to the user and allow users to interact with pages in a variety of ways. Button labels express what action will occur when the user interacts with it.
+
+### When to use:
+
+Use buttons to communicate actions users can take and to allow users to interact with the page. Each page should have one primary button, and any remaining calls to action should be represented as lower emphasis buttons.
+
+## Live demo
+
+*Coming soon*
+
+## Formatting
+
+### Anatomy
+
+<Row>
+<Column colLg={4}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643769701/button_anatomy_dcwdjh.svg"></img>
+
+</Column>
+</Row>
+
+1. **Icon**: Use an icon to convey more meaning (optional).
+2. **Label**: Text that indicates the result of selecting the button.
+
+## Content
+
+### Labels 
+
+Buttons labels should be concise and clear enough to indicate the next action to the user
+
+<DoDontRow>
+
+<DoDont 
+color="light"
+captionTitle="Do"
+caption="Use concise, easy to scan, and clear button labels to indicate the next action to the user."
+aspectRatio="1:1">
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774457/reset-1_iegwu7.svg"></img>
+
+</DoDont>
+
+<DoDont aspectRatio="1:1" 
+type="dont"
+captionTitle="Don't"
+caption="Use long, redundant button labels. Drop unnecessary articles, such as ‘a’ or ‘the’, for a more concise label."
+>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774521/reset-2_ngkglz.svg"></img>
+
+</DoDont>
+
+</DoDontRow>
+
+<DoDontRow>
+
+<DoDont 
+color="light"
+captionTitle="Do"
+caption="Use sentence-case capitalization."
+aspectRatio="1:1">
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774601/dopy_imr0uk.svg"></img>
+
+</DoDont>
+
+<DoDont aspectRatio="1:1" 
+type="dont"
+captionTitle="Don't"
+caption="Use title case captalization or all caps."
+>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774600/COPY-3_f1ypcb.svg"></img>
+
+</DoDont>
+
+</DoDontRow>
+
+<DoDontRow>
+
+<DoDont 
+color="light"
+captionTitle="Do"
+caption="Do use high-emphasis and medium-emphasis buttons in a button group."
+aspectRatio="1:1">
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774700/deletee_m0rjzw.svg"></img>
+
+</DoDont>
+
+<DoDont aspectRatio="1:1" 
+type="dont"
+captionTitle="Don't"
+caption="Do not use two high-emphasis buttons in a button group."
+>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774700/delete2_tkmfse.svg"></img>
+
+</DoDont>
+
+</DoDontRow>
+
+## Emphasis 
+
+As a general rule, a layout should contain a single high-emphasis button that makes it clear that other buttons have less importance in the hierarchy. This high-emphasis button commands the most attention.
+
+<DoDontRow>
+
+<DoDont 
+color="light"
+captionTitle="Do"
+caption="Do use high-emphasis and medium-emphasis buttons in a button group."
+aspectRatio="1:1">
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774848/Modal2_y0ccsr.svg"></img>
+
+</DoDont>
+
+<DoDont aspectRatio="1:1" 
+type="dont"
+captionTitle="Don't"
+caption="Do not use two high-emphasis buttons in a button group."
+>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643774007/modal_zvdgpb.svg"></img>
+
+</DoDont>
+
+</DoDontRow>
+
+## Behaviors
+
+### Variants
+
+#### Primary 
+
+Use a ```primary``` button to call attention to an action on a form or to highlight the strongest call to action on a page. Primary buttons should only appear once per container (not including the application header or in a modal dialog). Not every screen requires a primary button.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643773580/primary_wotgeb.svg"></img>
+
+</Column>
+</Row>
+
+#### White 
+
+Use a ```white``` button with a primary button for secondary actions, such as “Cancel".
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643773580/whitebutton_eor7kz.svg"></img>
+
+</Column>
+</Row>
+
+#### Error 
+
+The ```error``` button appears as a final confirmation for a destructive action such as deleting. These are found mostly in confirmation modals.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643773580/errorbutton_r5ypgj.svg"></img>
+
+</Column>
+</Row>
+
+
+#### Icon 
+
+There are two variants for ```icon``` buttons, **leading** and **trailing**. 
+
+```leading icon```
+
+Display an icon before the text.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643773580/icon_leading_m8dh9k.svg"></img>
+
+</Column>
+</Row>
+
+```trailing icon```
+
+Display an icon after the text.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643773580/trailing_button_hjanaj.svg"></img>
+
+</Column>
+</Row>
+
+
+## Feedback
+
+Contact the team on Slack on the ```#galaxy-design-system``` channel. 
+
+If you need a new component that is not currently in Galaxy, please fill out this <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">form</a> and email it over to the Design Team, Chris or Alyssa. We will take a look at your request and get back to you.

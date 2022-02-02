@@ -1,0 +1,182 @@
+---
+title: Avatars
+tabs: ['Usage', 'Style', 'Code']
+description: Usage instructions for the Avatar component
+---
+
+<PageDescription>
+
+Avatars are used when you want to display a collection of users. You can also use them for easy collapse states for a set number of avatars and with a dropdown to show hidden users.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Live demo</AnchorLink>
+<AnchorLink>Formatting</AnchorLink>
+<AnchorLink>Content</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+
+A group of avatars can be displayed together in a stack.
+
+### When to use:
+
+- Circular avatars to quickly identify users
+
+## Live demo
+
+<ComponentDemo
+  components={[
+    {
+      id: 'accordion',
+      label: 'Accordion',
+    },
+  ]}>
+  <ComponentVariant
+    id="accordion"
+    knobs={{
+      Accordion: ['align', 'disabled'],
+      AccordionItem: ['open', 'disabled'],
+    }}
+    links={{
+      React:
+        'https://react.carbondesignsystem.com/?path=/story/components-accordion--accordion',
+      Angular:
+        'https://angular.carbondesignsystem.com/?path=/story/components-accordion--basic',
+      Vue:
+        'http://vue.carbondesignsystem.com/?path=/story/components-cvaccordion--default',
+      Vanilla: 'https://the-carbon-components.netlify.com/?nav=accordion',
+      "Web Components": 'https://web-components.carbondesignsystem.com/?path=/story/components-accordion--default',
+    }}>
+    {`
+  <Accordion>
+    <AccordionItem title="Title 1"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+    <AccordionItem title="Title 2"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+    <AccordionItem title="Title 3"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
+  </Accordion>
+  `}
+  </ComponentVariant>
+</ComponentDemo>
+
+## Formatting
+
+### Anatomy
+
+<Row>
+<Column colLg={2} class="horizontal">
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643651134/avatar-anatomy_bmj4fn.svg"></img>
+
+</Column>
+
+<Column colLg={2}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643651615/Group_701_m11vie.svg"></img>
+
+</Column>
+
+</Row>
+
+1. **Image Avatars**: Image avatars should be used once a user decides to upload a profile picture.
+2. **Initial Avatars**: Initial avatars should be used as the default avatar for each user. 
+
+### Placement
+
+Avatars placement description
+
+## Content
+
+### Main elements
+
+#### Images
+
+- Avatar images should by default use the initials variant and should only include an image if the user chooses to upload one.
+
+## Behaviors
+
+### Variants
+
+By default, all section message come with an icon and an area for content. A ```title``` and ```actions``` can also be added.
+
+#### Images Stacked
+Simple stacked avatar groups are the default way to present groups of users. 
+
+<Row>
+<Column colLg={8}>
+
+<iframe src="https://codesandbox.io/embed/avatar-group-o9m9l?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fcomponent%2FAvatarGroup.js&theme=light&view=preview"
+     style="width:100%; height:150px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Avatar Group"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+</Column>
+</Row>
+
+#### Initials Stacked
+
+Default state for users without uploaded image. 
+
+<Row>
+<Column colLg={8}>
+
+<iframe src="https://codesandbox.io/embed/avatar-group-default-9h5gu?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fcomponent%2FAvatarGroup.js&theme=light&view=preview"
+     style="width:100%; height:150px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Avatar Group (default)"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+</Column>
+</Row>
+
+#### Hidden Users
+
+When there are more than the alloted 4 avatars, use a numerical initials avatar to indicate how many users are not being shown. 
+
+<Row>
+<Column colLg={8}>
+
+<iframe src="https://codesandbox.io/embed/avatar-group-hidden-users-tiljf?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fcomponent%2FAvatarGroup.js&theme=light&view=preview"
+     style="width:100%; height:150px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Avatar Group - Hidden Users"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+</Column>
+</Row>
+
+#### Hovering over a user
+
+When hovering over a specific user, a tooltip will open up below the avatar to provide further detail of the user's name. 
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643746574/Size_Hover_with_Tooltip_qeyqs8.svg" class="center"></img>
+
+</Column>
+</Row>
+
+#### Viewing hidden users
+
+When viewing hidden users, the numerical initials avatar can be clicked in order to display a menu of hidden users. 
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643746913/Size_Users_Menu_cel5v4.svg" class="center" ></img>
+
+</Column>
+</Row>
+
+## Feedback
+
+Contact the team on Slack on the ```#galaxy-design-system``` channel. 
+
+If you need a new component that is not currently in Galaxy, please fill out this <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">form</a> and email it over to the Design Team, Chris or Alyssa. We will take a look at your request and get back to you.

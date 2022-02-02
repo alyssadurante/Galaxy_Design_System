@@ -1,6 +1,6 @@
 ---
 title: Accordion
-tabs: ['Usage', 'Styles', 'Code']
+tabs: ['Usage', 'Style', 'Code']
 description: Usage instructions for the Accordion component
 ---
 
@@ -18,8 +18,6 @@ associated sections of content.
 <AnchorLink>Formatting</AnchorLink>
 <AnchorLink>Content</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
-<AnchorLink>Related</AnchorLink>
-<AnchorLink>References</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -46,38 +44,7 @@ extra click; instead use a full scrolling page with normal headers.
 
 ## Live demo
 
-<ComponentDemo
-  components={[
-    {
-      id: 'accordion',
-      label: 'Accordion',
-    },
-  ]}>
-  <ComponentVariant
-    id="accordion"
-    knobs={{
-      Accordion: ['align', 'disabled'],
-      AccordionItem: ['open', 'disabled'],
-    }}
-    links={{
-      React:
-        'https://react.carbondesignsystem.com/?path=/story/components-accordion--accordion',
-      Angular:
-        'https://angular.carbondesignsystem.com/?path=/story/components-accordion--basic',
-      Vue:
-        'http://vue.carbondesignsystem.com/?path=/story/components-cvaccordion--default',
-      Vanilla: 'https://the-carbon-components.netlify.com/?nav=accordion',
-      "Web Components": 'https://web-components.carbondesignsystem.com/?path=/story/components-accordion--default',
-    }}>
-    {`
-  <Accordion>
-    <AccordionItem title="Title 1"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
-    <AccordionItem title="Title 2"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
-    <AccordionItem title="Title 3"><p>The accordion component delivers large amounts of content in a small space through progressive disclosure. The user gets key details about the underlying content and can choose to expand that content within the constraints of the accordion. Accordions work especially well on mobile interfaces or whenever vertical space is at a premium.</p></AccordionItem>
-  </Accordion>
-  `}
-  </ComponentVariant>
-</ComponentDemo>
+*Coming soon*
 
 ## Formatting
 
@@ -86,7 +53,7 @@ extra click; instead use a full scrolling page with normal headers.
 <Row>
 <Column colLg={8}>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643157199/Accordion_Anatomy_-_Open_nzy6tc.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643157199/Accordion_Anatomy_-_Open_nzy6tc.svg" class="center"></img>
 
 </Column>
 </Row>
@@ -122,9 +89,7 @@ such as a side panel or tile.
 
 - The title should be as brief as possible while still being clear and
   descriptive.
-- Each title should be wrapped in a
-  [role heading](https://www.w3.org/TR/wai-aria-practices-1.1/#wai-aria-roles-states-and-properties)
-  (h1-h6) that is appropriate for the information architecture of the page.
+- Each title should be wrapped in a heading (h1-h6) that is appropriate for the information architecture of the page.
 
 #### Body copy
 
