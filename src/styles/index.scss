@@ -229,3 +229,53 @@ img.icon-box {
     margin-left: auto;
     margin-right: auto;
 }
+
+/** Icon Aside **/
+aside.Aside-module--aside--L09Vi svg {
+    width: 32px;
+    fill: white;
+    padding-bottom: 10px;
+}
+aside.Aside-module--aside--L09Vi.icon-aside {
+    background-color: #F3F4F6;
+    padding-top: 20px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 150px;
+}
+.icon-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #374151;
+    width: 135%;
+    height: 55px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+span.icon-code {
+    padding-left: 20px;
+}
+span.icon-aside-title {
+    padding-left: 20px;
+}
+span.icon-title {
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.icon-link-src {
+    color: #fff !important;
+    text-decoration: none !important;
+    padding-right: 10px;
+    text-align: left;
+    align-items: center;
+}
+.icon-link-src svg {
+    padding-top: 10px !important;
+}
+.icon-link > a > svg {
+    width: 12px;
+}
