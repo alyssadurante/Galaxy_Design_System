@@ -17,6 +17,12 @@
       path: /molecules/buttons/usage
     - title: Button Groups
       path: /molecules/button_groups/usage
+    - title: Cards
+      path: /molecules/cards/usage
+    - title: Dropdowns
+      path: /molecules/dropdowns/usage
+    - title: Tooltips
+      path: /molecules/tooltip/usage
   hasDivider: true
 - title: Foundations
   pages:

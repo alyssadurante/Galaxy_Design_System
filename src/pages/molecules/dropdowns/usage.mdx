@@ -1,13 +1,12 @@
 ---
-title: Accordion
+title: Dropdown
 tabs: ['Usage', 'Style', 'Code']
-description: Usage instructions for the Accordion component
+description: Usage instructions for the Dropdown component
 ---
 
 <PageDescription>
 
-An accordion is a vertically stacked list of headers that reveal or hide
-associated sections of content.
+A dropdown menu displays a list of actions or options to a user.
 
 </PageDescription>
 
@@ -24,21 +23,12 @@ associated sections of content.
 
 ## Overview
 
-The accordion component delivers large amounts of content in a small space
-through progressive disclosure. The header title give the user a high level
-overview of the content allowing the user to decide which sections to read.
-
-Accordions can make information processing and discovering more effective.
-However, it does hide content from users and it's important to account for a
-user not noticing or reading all of the included content. If a user is likely to
-read all of the content then don't use an accordion as it adds the burden of an
-extra click; instead use a full scrolling page with normal headers.
+Dropdown menus are typically used when you have 5-15 items to choose from. They're used for navigation or command menus, where an action is initiated based on the selection.
 
 ### When to use:
 
-- To organize related information.
-- To shorten pages and reduce scrolling when content is not crucial to read in
-  full.
+- A "more" menu, where the control contains an icon.
+- For user profiles, where the control is an <a href="/avatars/usage">avatar</a>.
 - When space is at a premium and long content cannot be displayed all at once,
   like on a mobile interface or in a side panel.
 
@@ -53,7 +43,7 @@ extra click; instead use a full scrolling page with normal headers.
 <Row>
 <Column colLg={8}>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643157199/Accordion_Anatomy_-_Open_nzy6tc.svg" class="center"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643859838/dropdown-anatomy_kcmhlm.svg" class="center"></img>
 
 </Column>
 <Column colLg={3}>
@@ -84,11 +74,9 @@ extra click; instead use a full scrolling page with normal headers.
 </Column>
 </Row>
 
-1. **Header**: contains the section title and is control for revealing the
-   panel.
-2. **Subtitle**: a description of what that specific accordion section does (optional)
-3. **Icon**: indicates if the panel is open or closed.
-3. **Panel**: the section of content associated with an accordion header.
+1. **Control**: A button that may contain an icon, or be labeled with text.
+2. **Trigger**: Used if the button is labeled with text.
+3. **Menu**: Container for links and action items.
 
 ### Placement
 
@@ -107,67 +95,75 @@ such as a side panel or tile.
 </Column>
 </Row>
 
-## Content
-
-### Main elements
-
-#### Title
-
-- The title should be as brief as possible while still being clear and
-  descriptive.
-- Each title should be wrapped in a heading (h1-h6) that is appropriate for the information architecture of the page.
-
-#### Body copy
-
-- Content inside of a section may be split into paragraphs and include
-  sub-headers if needed.
-
-### Scrolling content
-
-When the accordion content is longer than the viewport the whole accordion
-should vertically scroll. Content should not scroll inside of an individual
-panel. Content should never scroll horizontally in an accordion.
-
 ## Behaviors
 
-### States
+### Variants
 
-The accordion component has two main states: **collapsed** and **expanded**. The
-chevron icon at the end of the accordion indicates which state the accordion is
-in. The chevron points down to indicate collapsed and up to indicate expanded.
+#### Default
 
-Accordions begin by default in the collapsed state with all content panels
-closed. Starting in a collapsed state gives the user a high level overview of
-the available information.
-
-#### Collapsed State
+Use ```default``` for the default dropdown menu appearance. The default menu will scroll after its height exceeds the pre-defined amount.
 
 <Row>
 <Column colLg={8}>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643158257/Accordion_Collapsed_j7wgue.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643861815/default_zaqh1s.svg" class="center"></img>
 
 </Column>
 </Row>
 
 
-#### Expanded State
+#### With divider
+
+Use the ```divider``` for menus that have multiple options and need categorizing. Place the related options beneath the divider.
 
 <Row>
 <Column colLg={8}>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643158257/Accordion_Open_otxn0n.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643861699/with_dividers_a2xrcj.svg" class="center"></img>
 
 </Column>
 </Row>
 
-A user can then independently expand each section of the accordion allowing for
-multiple sections to be open at once.
+#### With icons
 
 <Row>
 <Column colLg={8}>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643603152/accordion-expanded_y5s2to.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643861743/with_icons_oudvu9.svg" class="center"></img>
+
+</Column>
+</Row>
+
+#### With header
+
+Use the ```divider``` for menus that have multiple options and need categorizing. Place the related options beneath the divider.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643861742/header_vmhyiq.svg" class="center"></img>
+
+</Column>
+</Row>
+
+### Controls
+
+#### Avatar
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643861221/avatar_dropdown_menu_jvhya6.svg" class="center"></img>
+
+</Column>
+</Row>
+
+#### More icon
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643862098/more-focus_ixw8ts.svg" class="center"></img>
 
 </Column>
 </Row>
