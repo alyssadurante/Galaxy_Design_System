@@ -141,6 +141,13 @@ p.link.css-1a1v1z7-clickable-card-animated-link {
     color: #0080FF;
     font-weight: 500;
 }
+.Callout-module--grid--Ilgc9 a {
+    color: currentColor;
+    text-decoration: none;
+}
+.bx--grid.Callout-module--grid--Ilgc9 {
+    background-color: #0080FF;
+}
 
 /** Homepage **/
 .Banner-module--grid--3L\+QD {
@@ -278,4 +285,7 @@ span.icon-title {
 }
 .icon-link > a > svg {
     width: 12px;
+}
+.Aside-module--aside--L09Vi:before {
+    background: none !important;
 }
