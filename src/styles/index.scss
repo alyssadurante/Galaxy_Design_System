@@ -289,3 +289,62 @@ span.icon-title {
 .Aside-module--aside--L09Vi:before {
     background: none !important;
 }
+
+/** Color Palette **/
+.color-bg {
+    height: 130px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.color-description {
+    background-color: #F3F4F6;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+h4.color-headline {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #4B5563;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+h4.color-description {
+    margin-top: 0px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #111827;
+    padding-bottom: 10px;
+}
+h4.color-name {
+    margin-top: 0px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #111827;
+    margin-bottom: 0px;
+}
+.palette {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+}
+.palette .col {
+    display: flex;
+}
+.palette-sm {
+    border-radius: 6px;
+}
+.color-bg-sm {
+    height: 50px;
+    border-radius: 6px;
+}
+h4.color-headline-sm {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h4.color-name-sm {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 14px;
+}

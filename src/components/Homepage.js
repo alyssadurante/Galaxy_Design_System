@@ -5,7 +5,7 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 import DesignSystem from './Cover.png';
 
-const BannerText = () => <div><h1>Galaxy Design System</h1>
+const BannerText = () => <div><h1><strong>Galaxy Design System (v1.1)</strong></h1>
 <p>Use AnswerRocket's end-to-end design language to create simple, intuitive and beautiful experiences.</p>
 </div>
 ;
