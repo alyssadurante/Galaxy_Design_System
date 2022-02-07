@@ -1,5 +1,17 @@
 // This is where your application styles could go.
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@400;500;600;700&display=swap');
+
+p.Markdown-module--paragraph--KTgXw.Markdown-module--paragraph--responsive--f8rFI {
+    color: #6B7280;
+}
+.Markdown-module--h2--5IV3j {
+    margin-top: 50px !important;
+    color: #111827;
+}
+li.bx--list__item.Markdown-module--list-item--Fx7iu {
+    color: #6B7280;
+}
 
 .bx--header__global, .GlobalSearch-module--searchButton--h3xR0, .Header-module--header--GJDvk .Header-module--header-button--cTW-C.Header-module--switcher-button--FrOpW, .Header-module--headerName--01F2z {
     background-color: #1F2937;
@@ -347,4 +359,53 @@ h4.color-name-sm {
     margin-top: 0px;
     font-weight: 400;
     font-size: 14px;
+}
+.color-name {
+    font-family: 'Inconsolata', monospace;
+}
+.color-sample {
+    height: 40px;
+    width: 60px;
+    border-radius: 6px;
+}
+td {
+    vertical-align: middle;
+    transition: 0.3s;
+}
+.text-sample {
+    font-size: 26px;
+    font-weight: 800;
+}
+.page-table thead th, .component-docs table thead th {
+    font-size: 1rem;
+    color: #111827;
+}
+span.code {
+    background-color: #F3F4F6;
+    padding: 5px;
+    border-radius: 6px;
+}
+tr:hover {
+    background-color: #F9FAFB;
+}
+
+/** Font Box **/
+.font-stack-title {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.font-stack-code {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F3F4F6;
+    font-family: 'Inconsolata';
+}
+.font-stack {
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px -1px rgb(0 0 0 / 10%);
 }

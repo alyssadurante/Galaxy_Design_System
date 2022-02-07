@@ -26,5 +26,10 @@
   hasDivider: true
 - title: Foundations
   pages:
-    - path: /foundations
+    - title: Colors
+      path: /foundations/color
+    - title: Iconography
+      path: /foundations/iconography
+    - title: Typography
+      path: /foundations/typography
 
