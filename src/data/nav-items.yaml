@@ -19,8 +19,16 @@
       path: /molecules/button_groups/usage
     - title: Cards
       path: /molecules/cards/usage
+    - title: Checkboxes
+      path: /molecules/checkboxes/usage
+    - title: Datepickers
+      path: /molecules/datepickers/usage
     - title: Dropdowns
       path: /molecules/dropdowns/usage
+    - title: Textfields
+      path: /molecules/textfields/usage
+    - title: Modals
+      path: /molecules/modals/usage
     - title: Tooltips
       path: /molecules/tooltip/usage
   hasDivider: true

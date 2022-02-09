@@ -1,0 +1,30 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  
+  .row {
+    height: 100%;
+  }
+  
+  .row h1 {
+    padding: 2rem 0;
+  }
+  
+  .grid {
+    background-size: cover;
+    height: 50vh;
+    max-height: 560px;
+    width: 100%;
+    max-width: 100%;
+  
+    @include carbon--breakpoint('lg') {
+      padding-left: 256px;
+    }
+  }
+  .Grid-module--column--dAOH0.bx--col-lg-12.Banner-module--column--JJvjA {
+    color: #111827 !important;
+  }
+  

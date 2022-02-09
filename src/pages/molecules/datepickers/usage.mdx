@@ -1,0 +1,132 @@
+---
+title: Datepickers
+tabs: ['Usage', 'Style', 'Code']
+description: Usage instructions for the Datepicker component
+---
+
+<PageDescription>
+
+A date picker allows the user to select a particular date.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Live demo</AnchorLink>
+<AnchorLink>Formatting</AnchorLink>
+<AnchorLink>Variants</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+
+Date pickers help users navigate past, present, and future dates.
+
+### When to use:
+
+- Users have to select one or more options from a list of related items
+- An explicit action is required to apply settings
+
+## Live demo
+
+*Coming soon*
+
+## Formatting
+
+### Anatomy
+
+<Row>
+<Column colLg={10}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644375244/datepicker-anatomy_wv4sij.svg"></img>
+
+</Column>
+</Row>
+
+
+1. **Label**: Labels should indicate what information the field requires. The label is left-aligned above the input area.
+2. **Date Input Field**: Selecting this field opens the calendar component. Users can also input dates into the field. Once a date is selected, the option will be shown in the text input. This example shows date formatted in ‘dd/mm/yyyy’ but this can be customized.
+3. **Calendar**: Contains the list of all dates. Selecting the previous or next arrows moves the calendar through months. The selected date area is highlighted by a different color fill.
+
+## Variants
+
+#### Single Date Picker
+
+In a single date picker a user has the option to either manually input a date in the text field or select one specific date from the menu calendar. It requires a day, month, and year to be selected.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644375966/datepicker-default_ntugfs.svg" class="center"></img>
+
+</Column>
+</Row>
+
+#### Date Range Picker
+
+The date range picker functions much like the single date picker but instead of choosing just one date the user can choose a start and end date. For each date in the range, users have the option to manually enter the date in a text field or select the date in the calendar. Each point requires a day, month, and year to be selected.
+
+<Row>
+<Column colLg={8} style="padding-right: 0px;">
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644375966/datepicker-customrange_s5jfuz.svg" class="center"></img>
+
+</Column>
+</Row>
+
+## Behaviors
+
+#### Opening the calendar
+
+The calendar can be opened in two ways:
+
+- Clicking the calendar icon on the far right of the field opens the calendar menu.
+- When the text field receives focus the calendar menu also appears and remains open until a date is selected or the focus is removed from the picker.
+
+#### Selecting a date 
+
+A date can be selected by:
+
+- Manually entering a date in the text input field.
+- Clicking on a date in the calendar menu.
+- Navigating to a date by using the Arrow keys and then pressing Enter.
+
+#### Next and previous month
+
+A user can navigate between the months in a year by:
+
+- Clicking on chevron icons at the top left and right of the calendar.
+- Using the Arrow keys to move through the into the next or previous month.
+
+#### Selecting a year
+
+By default the current date and year appears in the calendar. To navigate to another year the user can do one of the following:
+
+- Manually typing the year in the date text field.
+- Clicking the up and down arrows that appear when you focus or hover on the year input in the calendar.
+- Selecting then typing into the year input.
+
+#### Closing the calendar
+
+The calendar can be closed in one of the following ways:
+
+- Selecting a single date or the end date in a range. This will automatically close it.
+- Clicking anywhere outside of the calendar menu.
+- Removing focus from the picker.
+- Pressing Esc.
+
+#### Selecting a range
+
+There are several ways in which a range can be selected:
+
+- Manually type the start and end dates in the text field.
+- Once the calendar is open the first date you click becomes the start date and second date you click becomes the end date.
+- Navigating to the start date by using the Arrow keys and pressing Enter. Then continue using the Arrow keys to navigate to a second date and press Enter again.
+
+## Feedback
+
+Contact the team on Slack on the ```#galaxy-design-system``` channel. 
+
+If you need a new component that is not currently in Galaxy, please fill out this <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">form</a> and email it over to the Design Team, Chris or Alyssa. We will take a look at your request and get back to you.

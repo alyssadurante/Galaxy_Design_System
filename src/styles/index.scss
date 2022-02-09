@@ -207,6 +207,7 @@ p.title-card-description.Markdown-module--paragraph--KTgXw.Markdown-module--para
     display: flex;
     flex-direction: row;
     align-content: space-between;
+    align-items: center;
 }
 .p-right {
     padding-right: 15px;
@@ -414,4 +415,19 @@ tr:hover {
     border-radius: 8px;
     border: 1px solid #E5E7EB;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px -1px rgb(0 0 0 / 10%);
+}
+
+/** Homepage Banner **/
+
+.Grid-module--column--dAOH0.bx--col-lg-12.Banner-module--column--JJvjA {
+    color: #111827;
+  }
+
+.row-banner {
+    align-items: center;
+    height: 50vh;
+}
+.row-banner h1 {
+    font-weight: 600;
+    color: #111827;
 }

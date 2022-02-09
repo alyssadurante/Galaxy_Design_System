@@ -1,17 +1,10 @@
 import React from 'react';
-import { HomepageBanner } from 'gatsby-theme-carbon';
+import HomepageBanner from './HomepageBanner';
 import HomepageCallout from './HomepageCallout';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
-import DesignSystem from './Cover.png';
-
-const BannerText = () => <div><h1><strong>Galaxy Design System (v1.1)</strong></h1>
-<p>Use AnswerRocket's end-to-end design language to create simple, intuitive and beautiful experiences.</p>
-</div>
-;
-
 const customProps = {
-  Banner: <HomepageBanner renderText={BannerText} image={DesignSystem} />,
+  Banner: <HomepageBanner />,
   FirstCallout: (
     <HomepageCallout
       backgroundColor="#0080FF"
