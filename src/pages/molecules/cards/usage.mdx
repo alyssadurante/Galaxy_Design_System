@@ -3,3 +3,272 @@ title: Cards
 tabs: ['Usage', 'Style', 'Code']
 description: Usage instructions for the Card component
 ---
+
+<PageDescription>
+
+A card is a block of information that is separated from other elements on the page.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Live demo</AnchorLink>
+<AnchorLink>Formatting</AnchorLink>
+<AnchorLink>Variants</AnchorLink>
+<AnchorLink>Behavior</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+
+A card displays a single group of content within a set of similar groups.
+
+#### When to use
+
+Display a single, concise group of content within a set of similar, related groups. As a set, each card is meaningful on its own, but also in relationship and comparison to other cards.
+
+## Live demo
+
+*Coming soon*
+
+## Formatting
+
+### Anatomy
+
+<Row>
+<Column colLg={10}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641209/card-anatomy_ncw58a.svg"></img>
+
+</Column>
+</Row>
+
+
+1. **Container**: Wraps the content.
+2. **Title (Optional)**: Contains the title.
+3. **Picture/Chart (Optional)**: Visual indication about the content of the card.
+4. **Icon (Optional)**: Visual indication of the data source.
+5. **Content**: Contains a wide variety of content types and controls depending on the purpose.
+
+
+## Variants
+
+#### Dashboard metric
+
+This variant should be used on the Dashboard to display data. 
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641660/Metric-dashboard_auv4cx.svg"></img>
+
+</Column>
+</Row>
+<br/>
+<br/>
+
+##### States
+
+<Row>
+<Column colLg={5}>
+
+Hover
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641960/Metric-dashboard-hover_x4zryc.svg"></img>
+
+</Column>
+<Column colLg={5}>
+
+Focused 
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642007/Metrics-focused_lgnsth.svg"></img>
+
+</Column>
+</Row>
+
+#### Dashboard metric (skeleton)
+
+Skeletons are to be used when lazy loading the dashboard.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641694/Metric-skeleton_jyqzpk.svg"></img>
+
+</Column>
+</Row>
+
+#### Dashboard metric (add new)
+
+This variant should be used when a user wants to add a new card to the Dashboard. 
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641814/Metric-addnew_dofmzt.svg"></img>
+
+</Column>
+</Row>
+
+<Row>
+<Column colLg={5}>
+
+Hover
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642190/Metric-addnew-hover_exyyhu.svg"></img>
+
+</Column>
+<Column colLg={5}>
+
+Focused 
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642191/Metric-addnew-focus_g8wqxi.svg"></img>
+
+</Column>
+</Row>
+
+#### Contributor card
+
+This variant should be used in the KPI Drilldown section.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641814/Metric-contributorcard_nuctam.svg"></img>
+
+</Column>
+</Row>
+
+<Row>
+<Column colLg={3}>
+
+Hover
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642532/Metric-contributorcard-hover_vkxs9w.svg"></img>
+
+</Column>
+<Column colLg={3}>
+
+Focused 
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642532/Metric-contributorcard-focus_hmprsz.svg"></img>
+
+</Column>
+</Row>
+
+#### Icon card
+
+This variant should be used in the KPI Drilldown section.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641814/Card-iconcard_kwvolh.svg"></img>
+
+</Column>
+</Row>
+
+<Row>
+<Column colLg={3}>
+
+Hover
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644643111/iconcard-hover_w1hikc.svg"></img>
+
+</Column>
+<Column colLg={3}>
+
+Focused 
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644643110/iconcard-focus_fyyjf2.svg"></img>
+
+</Column>
+</Row>
+
+## Behavior
+
+### Height
+
+<Row>
+<Column colLg={4}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644643615/dashboard_card-height_hoiszo.svg"></img>
+
+</Column>
+<Column colLg={4}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644644772/contributorcard-height_dn3jjv.svg"></img>
+
+</Column>
+</Row>
+<br/>
+<br/>
+
+<Row>
+<Column colLg={3}>
+
+<span class="h5"><strong>Title</strong></span>
+<br/>
+<br/>
+<p>Title text should truncate after one line</p>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644645227/Metric-long-title_crug6h.svg"></img>
+
+</Column>
+<Column colLg={3}>
+
+<span class="h5"><strong>Subtitle</strong></span>
+<br/>
+<br/>
+<p>Subtitle text should truncate after filling up two lines</p>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644645398/Metric-subtitle_kmi5nj.svg"></img>
+
+</Column>
+</Row>
+
+<Row>
+<Column colLg={3}>
+
+<span class="h5"><strong>Title Hover</strong></span>
+<br/>
+<br/>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644646050/title-hover_ulgguo.svg"></img>
+
+</Column>
+<Column colLg={4}>
+
+<span class="h5"><strong>Subtitle Hover</strong></span>
+<br/>
+<br/>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644646050/subtitle-hover_o774wi.svg"></img>
+
+</Column>
+</Row>
+
+### Width
+
+<Row>
+<Column colLg={4}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644646386/dashboardmetric-width_c1p0d1.svg"></img>
+
+</Column>
+<Column colLg={4}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644646386/contributorcard-width_nun6db.svg"></img>
+
+</Column>
+</Row>
+
+
+### Dragging
+
+A card can be static or draggable when there is an option to reorder it within a set of other cards. When dragging a card, any adjacent cards should remain visible.
+
+TO DO: add draggable documentation
+
+## Feedback
+
+Contact the team on Slack on the ```#galaxy-design-system``` channel. 
+
+If you need a new component that is not currently in Galaxy, please fill out this <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">form</a> and email it over to the Design Team, Chris or Alyssa. We will take a look at your request and get back to you.

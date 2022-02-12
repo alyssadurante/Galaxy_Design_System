@@ -25,10 +25,14 @@
       path: /molecules/datepickers/usage
     - title: Dropdowns
       path: /molecules/dropdowns/usage
-    - title: Textfields
-      path: /molecules/textfields/usage
     - title: Modals
       path: /molecules/modals/usage
+    - title: Notifications
+      path: /molecules/notifications/usage
+    - title: Pagination
+      path: /molecules/pagination/usage
+    - title: Textfields
+      path: /molecules/textfields/usage
     - title: Tooltips
       path: /molecules/tooltip/usage
   hasDivider: true
