@@ -1,0 +1,126 @@
+---
+title: Empty States
+tabs: ['Usage', 'Style', 'Code']
+description: Usage instructions for the Empty State Pattern
+---
+
+<PageDescription>
+
+A modal dialog displays content that requires user interaction, in a layer above the page.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Live demo</AnchorLink>
+<AnchorLink>Formatting</AnchorLink>
+<AnchorLink>Variants</AnchorLink>
+<AnchorLink>States</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+
+Use modals to present a short-term task the user needs to perform. This can include critical or warning information where a response is required, however they’re also intended to support efficient task completion without losing the context of the underlying page. Users won't be able to interact with the page until the dialog is closed.
+
+In some cases, modals may contain information that requires additional help and support. Elements, such as filters or hint text, can be added to the modal dialog to help users respond with clarity and efficiency at the expense of dialog real estate.
+
+Although highly versatile, this doesn't mean modal dialogs are fit for all purposes.
+
+## Live demo
+
+*Coming soon*
+
+## Formatting
+
+### Anatomy
+
+<Row>
+<Column colLg={10}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644379778/modal-anatomy_swrxeh.svg"></img>
+
+</Column>
+</Row>
+
+
+1. **Header**: Contains the modal title.
+2. **Body**: Provides an overview of the modal's purpose and, optionally, controls to complete a task.
+3. **Footer**: Contains a primary action and the ability to cancel and close the dialog.
+
+## Variants
+
+#### Default
+
+The default form of a modal dialog.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644379919/modal-default_r9lkyj.svg"></img>
+
+</Column>
+</Row>
+
+#### Warning
+
+Warning modals appear in anticipation of a significant change. Have empathy for people. Inform, but don't alarm. If the warning comes before an action, clearly communicate what will happen if they proceed, and provide an alternative or opt-out where possible.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644380308/modal-warning_jv6wyq.svg"></img>
+
+</Column>
+</Row>
+
+#### Danger
+
+Danger modals are used to inform people when something potentially destructive will happen if they continue. Explain the problem and provide a next step or an alternative.
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644380555/modal-danger_r1hgfw.svg"></img>
+
+</Column>
+</Row>
+
+#### Simple with no footer
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644639962/modal-no-footer_q5m1jg.svg"></img>
+
+</Column>
+</Row>
+
+#### Filter modal with sidebar
+
+Filter modals fall under the ```custom``` modal family, and are primarily used when filtering large amounts of data. They can include form elements such as <a href="/molecules/textfields/usage">text fields</a>, <a href="/molecules/checkboxes/usage">checkboxes</a>, <a href="">radios</a>, and <a href="">search bars</a>. They are mainly used in the Self Service experience. 
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644640406/customfilter-sidebar_imaeks.svg"></img>
+
+</Column>
+</Row>
+
+#### Filter modal
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644640328/customfilter-nosidebar_xd1dhq.svg"></img>
+
+</Column>
+</Row>
+
+## Feedback
+
+Contact the team on Slack on the ```#galaxy-design-system``` channel. 
+
+If you need a new component that is not currently in Galaxy, please fill out this <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">form</a> and email it over to the Design Team, Chris or Alyssa. We will take a look at your request and get back to you.

@@ -31,8 +31,22 @@
       path: /molecules/notifications/usage
     - title: Pagination
       path: /molecules/pagination/usage
+    - title: Radio Buttons
+      path: /molecules/radio_buttons/usage
+    - title: Select Menus
+      path: /molecules/select_menus/usage
+    - title: Slideovers
+      path: /molecules/slideovers/usage
+    - title: Tables
+      path: /molecules/tables/usage
+    - title: Tabs
+      path: /molecules/tabs/usage
+    - title: Textareas
+      path: /molecules/textareas/usage
     - title: Textfields
       path: /molecules/textfields/usage
+    - title: Toggles
+      path: /molecules/toggles/usage
     - title: Tooltips
       path: /molecules/tooltip/usage
   hasDivider: true
@@ -44,4 +58,11 @@
       path: /foundations/iconography
     - title: Typography
       path: /foundations/typography
+- title: Patterns
+  pages:
+    - title: Empty States
+      path: /patterns/empty_states
+    - title: Login 
+      path: /patterns/login
+
 
