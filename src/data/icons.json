@@ -1,0 +1,57 @@
+{
+    "icons": [
+      {
+        "icon": "Information Circle",
+        "svgLink": "/interface-essential/alerts/information-circle"
+      },
+      {
+        "icon": "Alert Triangle",
+        "svgLink": "/interface-essential/alerts/alert-triangle"
+      },
+      {
+        "icon": "Check Circle 1",
+        "svgLink": "interface-essential/form-validation/check-circle-1"
+      },
+      {
+        "icon": "Close",
+        "svgLink": "/interface-essential/form-validation/close"
+      },
+      {
+        "icon": "Cog 1",
+        "svgLink": "/interface-essential/settings/cog-1"
+      },
+      {
+        "icon": "Pencil 1",
+        "svgLink": "/interface-essential/edit/pencil-1"
+      },
+      {
+        "icon": "File Database",
+        "svgLink": "/programing-apps-websites/coding-files/file-database"
+      },
+      {
+        "icon": "Common File Bookmark",
+        "svgLink": "files-folders/common-files/common-file-bookmark"
+      },
+      {
+        "icon": "Time Clock Circle",
+        "svgLink": "/interface-essential/time/time-clock-circle"
+      },
+      {
+        "icon": "Analytics Bars",
+        "svgLink": "/business-products/analytics/analytics-bars"
+      },
+      {
+        "icon": "Folder",
+        "svgLink": "/files-folders/folders/folder"
+      },
+      {
+        "icon": "Floppy Disc 2",
+        "svgLink": "/computers-devices-electronics/floppy-disks/floppy-disk-2"
+      },
+      {
+        "icon": "Lock 1",
+        "svgLink": "/interface-essential/lock-unlock/lock-1"
+      }
+
+    ]
+}
