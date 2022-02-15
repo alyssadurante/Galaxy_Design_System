@@ -2,55 +2,133 @@
     "icons": [
       {
         "icon": "Information Circle",
-        "svgLink": "/interface-essential/alerts/information-circle"
+        "svgLink": "/interface-essential/alerts/information-circle",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Alert Triangle",
-        "svgLink": "/interface-essential/alerts/alert-triangle"
+        "svgLink": "/interface-essential/alerts/alert-triangle",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Check Circle 1",
-        "svgLink": "interface-essential/form-validation/check-circle-1"
+        "svgLink": "interface-essential/form-validation/check-circle-1",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Close",
-        "svgLink": "/interface-essential/form-validation/close"
+        "svgLink": "/interface-essential/form-validation/close",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Cog 1",
-        "svgLink": "/interface-essential/settings/cog-1"
+        "svgLink": "/interface-essential/settings/cog-1",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Pencil 1",
-        "svgLink": "/interface-essential/edit/pencil-1"
+        "svgLink": "/interface-essential/edit/pencil-1",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "File Database",
-        "svgLink": "/programing-apps-websites/coding-files/file-database"
+        "svgLink": "/programing-apps-websites/coding-files/file-database",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Common File Bookmark",
-        "svgLink": "files-folders/common-files/common-file-bookmark"
+        "svgLink": "files-folders/common-files/common-file-bookmark",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Time Clock Circle",
-        "svgLink": "/interface-essential/time/time-clock-circle"
+        "svgLink": "/interface-essential/time/time-clock-circle",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Analytics Bars",
-        "svgLink": "/business-products/analytics/analytics-bars"
+        "svgLink": "/business-products/analytics/analytics-bars",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Folder",
-        "svgLink": "/files-folders/folders/folder"
+        "svgLink": "/files-folders/folders/folder",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Floppy Disc 2",
-        "svgLink": "/computers-devices-electronics/floppy-disks/floppy-disk-2"
+        "svgLink": "/computers-devices-electronics/floppy-disks/floppy-disk-2",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       },
       {
         "icon": "Lock 1",
-        "svgLink": "/interface-essential/lock-unlock/lock-1"
+        "svgLink": "/interface-essential/lock-unlock/lock-1",
+        "usedIn": {
+          "component": { 
+            "name":"Information Alerts",
+            "link": "/molecules/alerts/usage"
+          }
+        }
       }
 
     ]

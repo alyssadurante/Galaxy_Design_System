@@ -5,12 +5,16 @@
 p.Markdown-module--paragraph--KTgXw.Markdown-module--paragraph--responsive--f8rFI {
     color: #4B5563;
 }
+.Markdown-module--paragraph--KTgXw {
+    font-size: 14px;
+}
 .Markdown-module--h2--5IV3j {
     margin-top: 50px !important;
     color: #111827;
 }
 li.bx--list__item.Markdown-module--list-item--Fx7iu {
     color: #4B5563;
+    font-size: 14px;
 }
 li.bx--list__item.Markdown-module--list-item--Fx7iu strong {
     color: #111827;
@@ -386,9 +390,29 @@ td {
     font-size: 26px;
     font-weight: 800;
 }
+table {
+   // box-shadow: 0px 1px 3px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 6%) !important;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px !important;
+}
+.page-table__container {
+    overflow-x: auto;
+    background: none;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+}
 .page-table thead th, .component-docs table thead th {
-    font-size: 1rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
     color: #111827;
+    background-color: #F9FAFB;
+    //border-top-left-radius: 6px;
+    //border-top-right-radius: 6px;
+    border-bottom: 1px solid #E5E7EB;
+}
+.page-table tbody tr, .component-docs table tbody tr {
+    border-bottom: 1px solid #E5E7EB;
 }
 span.code {
     background-color: #F3F4F6;

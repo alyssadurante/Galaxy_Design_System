@@ -23,6 +23,8 @@
       path: /molecules/checkboxes/usage
     - title: Datepickers
       path: /molecules/datepickers/usage
+    - title: Dividers
+      path: /molecules/dividers/usage
     - title: Dropdowns
       path: /molecules/dropdowns/usage
     - title: Modals
@@ -37,6 +39,8 @@
       path: /molecules/select_menus/usage
     - title: Slideovers
       path: /molecules/slideovers/usage
+    - title: Steps
+      path: /molecules/steps/usage
     - title: Tables
       path: /molecules/tables/usage
     - title: Tabs
@@ -54,6 +58,8 @@
   pages:
     - title: Colors
       path: /foundations/color
+    - title: Effects
+      path: /foundations/effects
     - title: Iconography
       path: /foundations/iconography
     - title: Typography
