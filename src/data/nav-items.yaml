@@ -70,5 +70,13 @@
       path: /patterns/empty_states
     - title: Login 
       path: /patterns/login
+- title: Data Visualization
+  pages:
+    - title: Overview
+      path: /data_visualization/overview/general
+    - title: Charts 
+      path: /data_visualization/charts/bar-chart
+    - title: Dashboard 
+      path: /data_visualization/dashboard
 
 

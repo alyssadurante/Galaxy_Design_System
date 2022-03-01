@@ -15,6 +15,7 @@ Alerts communicate important information in a section of a screen. Alerts are pe
 <AnchorLink>Live demo</AnchorLink>
 <AnchorLink>Formatting</AnchorLink>
 <AnchorLink>Content</AnchorLink>
+<AnchorLink>Behavior</AnchorLink>
 <AnchorLink>Variants</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
@@ -53,7 +54,15 @@ By default, all alerts come with an icon and an area for content. A title and ac
 
 ### Placement
 
-Alerts placement description
+Alerts can be placed inline to indicate whether a user may need to interact with a component. 
+
+<Row>
+<Column colLg={8}>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1645135015/inline-alert_s5ndow.png"></img>
+
+</Column>
+</Row>
 
 ## Content
 
@@ -71,6 +80,12 @@ Alerts placement description
 ### Scrolling content
 
 Alerts should be sticky????
+
+## Behavior
+
+#### Closing an alert
+
+Alerts that include ```actions``` **require** the user to manually "Dismiss" the alert if they do not wish to interact with the alert.
 
 ## Variants
 
