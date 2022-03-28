@@ -23,8 +23,6 @@
       path: /molecules/checkboxes/usage
     - title: Datepickers
       path: /molecules/datepickers/usage
-    - title: Dividers
-      path: /molecules/dividers/usage
     - title: Dropdowns
       path: /molecules/dropdowns/usage
     - title: Modals

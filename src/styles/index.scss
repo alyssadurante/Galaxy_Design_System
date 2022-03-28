@@ -71,12 +71,39 @@ button.bx--side-nav__submenu {
     color: #4B5563 !important;
     font-weight: 500;
     letter-spacing: normal !important;
+    outline: none !important;
+}
+button.bx--side-nav__submenu:hover {
+    background-color: #F9FAFB;
 }
 .bx--side-nav__menu a.bx--side-nav__link--current, .bx--side-nav__menu a.bx--side-nav__link[aria-current=page], a.bx--side-nav__link--current {
     background-color: #F3F4F6;
+    border-radius: 4px;
+}
+.bx--side-nav__menu a.bx--side-nav__link {
+    height: 2.5rem;
+}
+a {
+    outline : none !important; 
+}
+a.bx--side-nav__link[aria-current=page]::before, a.bx--side-nav__link--current::before {
+    display: none !important;
+}
+a.bx--side-nav__link[aria-current=page], a.bx--side-nav__link--current {
+    height: 2.5rem;
+}
+li.bx--side-nav__menu-item {
+    padding-left: 10px;
+    padding-right: 16px;
+    border-radius: 4px;
 }
 .AnchorLinks-module--link--xy7Z0:before {
     content: "-";
+}
+
+/** Footer **/
+.Footer-module--grid--8NRdN {
+    min-height: 130px;
 }
 /** Tabs **/
 .PageTabs-module--tabs-container--Cdfzw {
@@ -99,7 +126,9 @@ button.bx--side-nav__submenu {
     font-weight: 500 !important;
     padding-top: 16px;
 }
-
+.PageTabs-module--list--xLqxG {
+    border-bottom: 1px solid #E5E7EB;
+}
 /** Spacing **/ 
 .Main-module--padded--HNtoD {
     padding-top: 50px !important;
@@ -179,6 +208,12 @@ p.link.css-1a1v1z7-clickable-card-animated-link {
     height: 60vh !important;
 }
 
+.caption {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0px;
+}
 /** Homepage Card Sm **/
 p.title-card-description.Markdown-module--paragraph--KTgXw.Markdown-module--paragraph--responsive--f8rFI {
     font-size: 14px;
