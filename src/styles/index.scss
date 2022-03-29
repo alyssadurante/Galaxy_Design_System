@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@400;500;600;700&display=swap');
 
+p > code {
+    background-color: #E5E7EB;
+}
 p.Markdown-module--paragraph--KTgXw.Markdown-module--paragraph--responsive--f8rFI {
     color: #4B5563;
 }
@@ -24,6 +27,17 @@ li.bx--list__item.Markdown-module--list-item--Fx7iu strong {
     font-size: inherit;
     text-decoration: none;
     font-weight: 500;
+}
+/** Aspect Ratio Block **/
+
+.bx--aspect-ratio--object:hover {
+    background-color: #F3F4F6;
+}
+img.component-item__img {
+    width: 42px;
+}
+li.component-item.m-10 {
+    margin-bottom: 0%;
 }
 
 .bx--header__global, .GlobalSearch-module--searchButton--h3xR0, .Header-module--header--GJDvk .Header-module--header-button--cTW-C.Header-module--switcher-button--FrOpW, .Header-module--headerName--01F2z {
@@ -455,6 +469,7 @@ table {
     background: none;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 6%);
     border-radius: 8px;
+    margin-left: 0.8rem;
 }
 .page-table thead th, .component-docs table thead th {
     font-size: 12px;
@@ -476,6 +491,69 @@ span.code {
 }
 tr:hover {
     background-color: #F9FAFB;
+}
+a.bx--side-nav__link.LeftNav-module--outboundLink--j-dCg {
+    display: none;
+}
+.EditLink-module--row--BEmSX {
+    display: none;
+}
+
+/** Navbar Search **/
+.GlobalSearch-module--inputWrapper--AFaN3 {
+    background-color: #1F2937;
+}
+.GlobalSearch-module--input--i-NxR {
+    background-color: #374151;
+    padding-left: 12px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #fff;
+}
+.GlobalSearch-module--container--UinBu.GlobalSearch-module--inputFocusWithin--1fQ7S {
+    outline: none;
+}
+.GlobalSearch-module--search-button--close--Hz4-A:hover {
+    background-color: #1F2937;
+}
+.GlobalSearch-module--search-button--close--Hz4-A:focus {
+    outline: none;
+    background-color: #1F2937;
+}
+.Header-module--header--GJDvk button:hover {
+    background-color: #1F2937;
+}
+.Header-module--header--GJDvk button:focus {
+    outline: none;
+}
+
+button.Header-module--header-button--cTW-C.Header-module--switcher-button--FrOpW.bx--header__action.bx--btn.bx--btn--primary.bx--tooltip--hidden.bx--btn--icon-only.bx--tooltip__trigger.bx--tooltip--a11y.bx--btn--icon-only--bottom.bx--tooltip--align-end {
+    display: none;
+}
+.GlobalSearch-module--list--Wbah0 {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 5%), 0px 10px 15px -3px rgb(0 0 0 / 10%), 0px 4px 6px -2px rgb(0 0 0 / 5%);
+}
+.GlobalSearch-module--link--et593.GlobalSearch-module--active--7vO1K {
+    color: #374151;
+    background-color: #ffffff;
+}
+.GlobalSearch-module--link--et593 {
+    color: #374151;
+}
+.GlobalSearch-module--link--et593:hover {
+    background-color: #F3F4F6;
+    color: #374151;
+}
+
+.GlobalSearch-module--description--b2HeA {
+    color: #6B7280;
+}
+.GlobalSearch-module--description--b2HeA:hover {
+    color: #374151;
 }
 
 /** Font Box **/

@@ -62,12 +62,6 @@
       path: /foundations/iconography
     - title: Typography
       path: /foundations/typography
-- title: Patterns
-  pages:
-    - title: Empty States
-      path: /patterns/empty_states
-    - title: Login 
-      path: /patterns/login
 - title: Data Visualization
   pages:
     - title: Overview

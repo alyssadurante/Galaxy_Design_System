@@ -2,134 +2,353 @@
     "icons": [
       {
         "icon": "Information Circle",
-        "svgLink": "/interface-essential/alerts/information-circle",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/alerts/information-circle",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Alert Triangle",
-        "svgLink": "/interface-essential/alerts/alert-triangle",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/alerts/alert-triangle",
+        "component": [{
+          "name": "Warning alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Warning alerts",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Check Circle 1",
-        "svgLink": "interface-essential/form-validation/check-circle-1",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/form-validation/check-circle-1",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Warning alerts",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Close",
-        "svgLink": "/interface-essential/form-validation/close",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/form-validation/close",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Cog 1",
-        "svgLink": "/interface-essential/settings/cog-1",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/settings/cog-1",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Pencil 1",
-        "svgLink": "/interface-essential/edit/pencil-1",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/edit/pencil-1",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "File Database",
-        "svgLink": "/programing-apps-websites/coding-files/file-database",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/programing-apps-websites/coding-files/file-database",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Common File Bookmark",
-        "svgLink": "files-folders/common-files/common-file-bookmark",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/files-folders/common-files/common-file-bookmark",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Time Clock Circle",
-        "svgLink": "/interface-essential/time/time-clock-circle",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/time/time-clock-circle",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Analytics Bars",
-        "svgLink": "/business-products/analytics/analytics-bars",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/business-products/analytics/analytics-bars",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Folder",
-        "svgLink": "/files-folders/folders/folder",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/files-folders/folders/folder",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Floppy Disc 2",
-        "svgLink": "/computers-devices-electronics/floppy-disks/floppy-disk-2",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/computers-devices-electronics/floppy-disks/floppy-disk-2",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       },
       {
         "icon": "Lock 1",
-        "svgLink": "/interface-essential/lock-unlock/lock-1",
-        "usedIn": {
-          "component": { 
-            "name":"Information Alerts",
-            "link": "/molecules/alerts/usage"
-          }
-        }
+        "svgLink": "streamline-bold/interface-essential/lock-unlock/lock-1",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "House 2",
+        "svgLink": "streamline-bold/interface-essential/home/house-2",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Arrow Down 1",
+        "svgLink": "streamline-bold/arrows-diagrams/arrows/arrow-down-1",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Arrow Right 1",
+        "svgLink": "streamline-bold/arrows-diagrams/arrows/arrow-right-1",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Light Bulb Shine",
+        "svgLink": "legacy-streamline-bold/lamps-lights-fire/light-bubbles/light-bulb-shines",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "File SQL",
+        "svgLink": "legacy-streamline-bold/programming-apps-websites/coding-files/file-sql",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Cloud Server",
+        "svgLink": "streamline-bold/internet-networks-servers/cloud/cloud-server",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Lock Unlock",
+        "svgLink": "streamline-bold/interface-essential/lock-unlock/lock-unlock",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Hyperlink",
+        "svgLink": "streamline-bold/interface-essential/link-unlink/hyperlink",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Developer Community Stack Overflow",
+        "svgLink": "streamline-bold/logos/developer-communities/developer-community-stack-overflow",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Phone Charger",
+        "svgLink": "streamline-bold/computers-devices-electronics/power-supply/phone-charger",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Floppy Disk",
+        "svgLink": "streamline-bold/computers-devices-electronics/floppy-disks/floppy-disk",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Navigation Menu Vertical",
+        "svgLink": "streamline-bold/interface-essential/menu/navigation-menu-vertical",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Programming Cloud Download",
+        "svgLink": "streamline-mini-bold/programming/clouds/programming-cloud-download",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Bin 2",
+        "svgLink": "legacy-streamline-bold/interface-essential/delete/bin-2",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Shrink 2",
+        "svgLink": "legacy-streamline-bold/interface-essential/expand-retract/shrink-2",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
+      },
+      {
+        "icon": "Expand 3",
+        "svgLink": "legacy-streamline-bold/interface-essential/expand-retract/expand-3",
+        "component": [{
+          "name": "Information alerts",
+          "link": "/molecules/alerts/usage"
+        }, 
+        {
+          "name": "Information notifications",
+          "link": "/molecules/alerts/usage"
+        }]
       }
-
     ]
 }
+
+

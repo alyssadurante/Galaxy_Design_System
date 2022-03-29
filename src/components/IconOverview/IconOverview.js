@@ -5,10 +5,18 @@ import iconList from '../../data/icons.json';
 import './icon-overview.scss';
 
 class IconOverview extends React.Component {
-  renderItems = (currentItem) => {
+  renderItems = (currentItem, componentName) => {
     const { icon } = currentItem;
+
+
+    Object.keys(iconList.icons).map((icon) => {
+      var singleIcon = iconList.icons[icon];
+     componentName = singleIcon.component[0].name;
+      console.log(singleIcon.component[1].name);
+   })
+
     let iconUrl;
-    iconUrl = `https://app.streamlinehq.com/icons/streamline-bold/${currentItem.svgLink
+    iconUrl = `https://streamlinehq.com/icons/${currentItem.svgLink
         .toLowerCase()
         .replace(' ', '-')}`;
 
@@ -19,9 +27,7 @@ class IconOverview extends React.Component {
       // eslint-disable-next-line global-require
       iconImg = require('./images/NoImage.svg').default;
     }
-    Object.entries(iconList).map((icons) => {
-     console.log(icons)
-  })
+    
     
     return (
       <li className="component-item m-10" key={icon}>
@@ -35,8 +41,7 @@ class IconOverview extends React.Component {
               />
               <p className="component-name">{icon}</p>
               </Link>
-              <h5>When to Use</h5>
-          </div>
+            </div>
         </div>
       </li>
     );
