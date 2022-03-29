@@ -29,7 +29,8 @@ module.exports = {
         },
         theme: {
           homepage: 'white'
-        }
+        },
+        iconPath: './src/images/favicon-large.png'
       },
     },
   ],
