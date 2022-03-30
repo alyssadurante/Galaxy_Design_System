@@ -1,19 +1,40 @@
 import HomepageTemplate from '../components/Homepage.js';
+import 'animate.css';
+
 export default HomepageTemplate;
 
+
+<Row class="homepage-banner">
+<Column colLg={5} class="middle">
+
+<h1 class="main-title">Galaxy Design System v1.1</h1>
+<p class="main-description">Use AnswerRocket's end-to-end design language to create simple, intuitive and beautiful experiences.</p>
+<a href="/components" class="main-btn">View components</a>
+
+</Column>
+<Column colLg={6} class="middle">
+
+<img class="galaxy-img animate__animated animate__fadeIn" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648615974/galaxy_d4t0ap.png"></img>
+<img class="action-panel floating-target" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648615988/Action_Panel_t4ntsn.svg"></img>
+<img class="target floating" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648616222/target_zlsegf.svg"></img>
+<img class="table floating-table" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648616222/table_gbjjzb.svg"></img>
+<img class="card floating-card" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648616222/card_gtjcgv.svg"></img>
+
+</Column>
+</Row>
 
 <Row class="flex">
 <Column colLg={3} colMd={3} class="p-right">
     <div class="title-card-sm border-right">
         <h3 class="title-card-title">Foundations</h3>
-        <p class="title-card-description">Foundations are the visual elements needed to create engaging layouts and end-to-end user experiences.</p>
+        <p class="title-card-description beginning">Foundations are the visual elements needed to create engaging layouts and end-to-end user experiences.</p>
     </div>
 </Column>
 <Column colLg={3} colMd={3} class="p-right">
     <a href="/foundations/color" class="homepage-card-sm">
         <div>
             <h3 class="title-card-title">
-                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643764733/colors_h6kzuq.svg"></img>Colors
+                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648618745/colors-icon_ooqgid.svg"></img>Colors
             </h3>
             <p class="title-card-description">Color distinguishes our brand and helps us create consistent experiences across products.</p>
         </div>
@@ -23,7 +44,7 @@ export default HomepageTemplate;
     <a href="" class="homepage-card-sm">
         <div>
             <h3 class="title-card-title">
-                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643766284/Icon_iep6ta.svg"></img>Iconography
+                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648618762/iconography_ixcpxo.svg"></img>Iconography
             </h3>
             <p class="title-card-description">Icons are visual representations of commands, devices, directories, or common actions.</p>
         </div>
@@ -33,7 +54,7 @@ export default HomepageTemplate;
     <a href="" class="homepage-card-sm">
         <div>
             <h3 class="title-card-title">
-                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643766284/text_t3jylz.svg"></img>Typography
+                <img class="icon-box" src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648618612/text-icon_oebr39.svg"></img>Typography
             </h3>
             <p class="title-card-description">Typography is our system of fonts. Each font conveys the appropriate sentiment to assist our users through each stage of their journey.</p>
         </div>

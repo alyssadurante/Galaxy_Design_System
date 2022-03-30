@@ -4,7 +4,7 @@ import { Grid, Column, Row } from './Grid';
 const HomepageBanner = ({ image, position, renderText }) => (
   <Grid className="grid-banner">
     <Row className="row-banner">
-      <Column colLg={6}><h1>Galaxy Design System v1.1</h1>
+      <Column colLg={6}><h1 class="main-title">Galaxy Design System v1.1</h1>
       <br/>
       <p>Use AnswerRocket's end-to-end design language to create simple, intuitive and beautiful experiences.</p>
       </Column>

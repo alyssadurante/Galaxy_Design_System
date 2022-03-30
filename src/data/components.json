@@ -109,18 +109,6 @@
         }
     },
     {
-        "component": "Containers",
-        "react": {
-          "stable": true,
-          "experimental": false,
-          "new": false,
-          "updated": true,
-          "deprectated": false,
-          "underConstruction": false,
-          "notAvailable": false
-        }
-    },
-    {
         "component": "Date Picker",
         "react": {
           "stable": true,
@@ -169,42 +157,6 @@
         }
     },
     {
-        "component": "Fly Out Menus",
-        "react": {
-          "stable": true,
-          "experimental": false,
-          "new": false,
-          "updated": true,
-          "deprectated": false,
-          "underConstruction": false,
-          "notAvailable": false
-        }
-    },
-    {
-        "component": "Input Groups",
-        "react": {
-          "stable": true,
-          "experimental": false,
-          "new": false,
-          "updated": true,
-          "deprectated": false,
-          "underConstruction": false,
-          "notAvailable": false
-        }
-    },
-    {
-        "component": "List Containers",
-        "react": {
-          "stable": true,
-          "experimental": false,
-          "new": false,
-          "updated": true,
-          "deprectated": false,
-          "underConstruction": false,
-          "notAvailable": false
-        }
-    },
-    {
         "component": "Modals",
         "react": {
           "stable": true,
@@ -230,18 +182,6 @@
     },
     {
         "component": "Pagination",
-        "react": {
-          "stable": true,
-          "experimental": false,
-          "new": false,
-          "updated": true,
-          "deprectated": false,
-          "underConstruction": false,
-          "notAvailable": false
-        }
-    },
-    {
-        "component": "Panels",
         "react": {
           "stable": true,
           "experimental": false,
@@ -323,6 +263,18 @@
           "underConstruction": false,
           "notAvailable": false
         }
+    },
+    {
+      "component": "Textfields",
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": true,
+        "deprectated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
     },
     {
         "component": "Textareas",

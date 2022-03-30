@@ -37,7 +37,7 @@ class IconOverview extends React.Component {
               <img
                 src={iconImg}
                 alt={icon}
-                className="component-item__img"
+                className="component-item__img icon_img"
               />
               <p className="component-name">{icon}</p>
               </Link>
