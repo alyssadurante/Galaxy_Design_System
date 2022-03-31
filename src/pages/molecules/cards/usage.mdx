@@ -34,7 +34,7 @@ Display a single, concise group of content within a set of similar, related grou
 <Row>
 <Column colLg={10}>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641209/card-anatomy_ncw58a.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648756209/card-versus_y9ge6x.svg"></img>
 
 </Column>
 </Row>
@@ -45,6 +45,7 @@ Display a single, concise group of content within a set of similar, related grou
 3. **Picture/Chart (Optional)**: Visual indication about the content of the card.
 4. **Icon (Optional)**: Visual indication of the data source.
 5. **Content**: Contains a wide variety of content types and controls depending on the purpose.
+6. **Previous Value**: Shows the value that the top figure is being compared to.
 
 
 ## Variants
@@ -56,7 +57,7 @@ This variant should be used on the Dashboard to display data.
 <Row>
 <Column colLg={8}>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641660/Metric-dashboard_auv4cx.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648753842/versus-card_mkeo1z.svg"></img>
 
 </Column>
 </Row>
@@ -68,16 +69,51 @@ This variant should be used on the Dashboard to display data.
 <Row>
 <Column colLg={5}>
 
-Hover
+<strong>Hover</strong>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644641960/Metric-dashboard-hover_x4zryc.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648754031/versus-hover_ygzesa.svg"></img>
 
 </Column>
 <Column colLg={5}>
 
-Focused 
+<strong>Focused</strong>
 
-<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642007/Metrics-focused_lgnsth.svg"></img>
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648754113/versus-focus_hllabu.svg"></img>
+
+</Column>
+</Row>
+
+#### Target card
+
+This variant should be used for when a user has set a target for a specific Metric. 
+
+<Row>
+<Column colLg={3}>
+
+<strong>Behind Target</strong>
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648752631/Behind_Metric_jjnw77.svg"></img>
+
+</Column>
+<Column colLg={3}>
+
+<strong>Ahead of Target</strong> 
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648752631/Ahead_Metric_t0lkvl.svg"></img>
+
+</Column>
+<Column colLg={3}>
+
+<strong>Missed Target</strong> 
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648752631/Missed_Metric_f6mphh.svg"></img>
+
+</Column>
+<Column colLg={3}>
+
+<strong>Hit Target</strong> 
+
+<img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1648752631/Completed_Metric_suv0i7.svg"></img>
 
 </Column>
 </Row>
@@ -109,14 +145,14 @@ This variant should be used when a user wants to add a new card to the Dashboard
 <Row>
 <Column colLg={5}>
 
-Hover
+<strong>Hover</strong>
 
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642190/Metric-addnew-hover_exyyhu.svg"></img>
 
 </Column>
 <Column colLg={5}>
 
-Focused 
+<strong>Focused</strong> 
 
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642191/Metric-addnew-focus_g8wqxi.svg"></img>
 
@@ -138,14 +174,14 @@ This variant should be used in the KPI Drilldown section.
 <Row>
 <Column colLg={3}>
 
-Hover
+<strong>Hover</strong>
 
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642532/Metric-contributorcard-hover_vkxs9w.svg"></img>
 
 </Column>
 <Column colLg={3}>
 
-Focused 
+<strong>Focused</strong> 
 
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644642532/Metric-contributorcard-focus_hmprsz.svg"></img>
 
@@ -167,14 +203,14 @@ This variant should be used in the KPI Drilldown section.
 <Row>
 <Column colLg={3}>
 
-Hover
+<strong>Hover</strong>
 
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644643111/iconcard-hover_w1hikc.svg"></img>
 
 </Column>
 <Column colLg={3}>
 
-Focused 
+<strong>Focused</strong> 
 
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1644643110/iconcard-focus_fyyjf2.svg"></img>
 
@@ -226,8 +262,6 @@ Focused
 ### Dragging
 
 A card can be static or draggable when there is an option to reorder it within a set of other cards. When dragging a card, any adjacent cards should remain visible.
-
-TO DO: add draggable documentation
 
 ## Feedback
 
