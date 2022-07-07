@@ -72,6 +72,10 @@
       path: /data_visualization/dashboard
     - title: Tables 
       path: /data_visualization/tables/general
+- title: Brand
+  pages:
+    - title: Mission & Values
+      path: /brand/mission-values
   hasDivider: true
 - title: Feedback
   pages:
